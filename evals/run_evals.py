@@ -23,7 +23,7 @@ def build_report() -> str:
     skills = skill_eval.run()
 
     lines = []
-    lines.append("# Eval Report: game-data-analysis skill + gulliver-liveops MCP server")
+    lines.append("# Eval Report: game-data-analysis skill +  -liveops MCP server")
     lines.append(f"\nGenerated: {datetime.now(timezone.utc).isoformat(timespec='seconds')}Z")
     lines.append(f"\nDataset: `data/liveops_daily.csv` (120 days, 10 labeled anomalies, "
                  f"1 non-anomalous 7-day marketing campaign as a distractor)")
