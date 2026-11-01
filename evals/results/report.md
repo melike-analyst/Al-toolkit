@@ -1,4 +1,4 @@
-# Eval Report: game-data-analysis skill + gulliver-liveops MCP server
+# Eval Report: game-data-analysis skill +  -liveops MCP server
 
 Generated: 2026-09-24T20:53:34+00:00Z
 
