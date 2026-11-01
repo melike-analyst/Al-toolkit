@@ -1,6 +1,6 @@
 ---
 name: game-data-analysis
-description: Use when the user asks to analyze, review, or find issues in mobile-game live-ops data (DAU, revenue, session length, crash rate) — whether from a CSV export or the liveops SQLite database via the gulliver-liveops MCP server. Produces a structured findings report, not just a summary.
+description: Use when the user asks to analyze, review, or find issues in mobile-game live-ops data (DAU, revenue, session length, crash rate) — whether from a CSV export or the liveops SQLite database via the  -liveops MCP server. Produces a structured findings report, not just a summary.
 ---
 
 # Game Data Analysis
@@ -12,7 +12,7 @@ profiling step is the #1 cause of wrong conclusions (e.g. reporting a
 
 ## 1. Profile before you analyze
 
-If the `gulliver-liveops` MCP server is available, call `profile_table`
+If the ` -liveops` MCP server is available, call `profile_table`
 before anything else. If working from a raw CSV instead, do the
 equivalent by hand: row count, column dtypes, null counts per column,
 duplicate rows, and date range covered.
