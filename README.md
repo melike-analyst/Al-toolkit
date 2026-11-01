@@ -22,7 +22,7 @@ Scoped to a concrete mobile-game live-ops dataset (DAU, revenue, session length,
 ##  Repository Structure
 
 ```
-gulliver-ai-toolkit/
+ -ai-toolkit/
 ├── mcp_server/
 │   ├── server.py             # MCP server implementation (list_tables, profile_table, run_sql, detect_anomalies)
 │   └── anomaly.py            # Anomaly detection engines (v1_zscore vs v2_robust)
@@ -53,8 +53,8 @@ gulliver-ai-toolkit/
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/your-username/gulliver-ai-toolkit.git
-   cd gulliver-ai-toolkit
+   git clone https://github.com/melike-analyst/ -ai-toolkit.git
+   cd  -ai-toolkit
    ```
 
 2. **Install dependencies**:
